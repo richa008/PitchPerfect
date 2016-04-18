@@ -19,21 +19,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0a8-6a-pNn" userLabel="RecordingButton">
-                                <rect key="frame" x="250" y="184" width="100" height="100"/>
+                                <rect key="frame" x="250" y="144" width="100" height="100"/>
                                 <state key="normal" image="RecordIcon"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGi-Wr-bCi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiS-OT-oak" userLabel="StopButton">
-                                <rect key="frame" x="275" y="379" width="50" height="50"/>
+                                <rect key="frame" x="275" y="304.5" width="50" height="50"/>
                                 <state key="normal" image="StopRecordingIcon"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oHY-ai-XHG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpI-Nk-1ea">
-                                <rect key="frame" x="249" y="294" width="102.5" height="20.5"/>
+                                <rect key="frame" x="249" y="254" width="102.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -42,8 +42,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MiS-OT-oak" firstAttribute="centerX" secondItem="zpI-Nk-1ea" secondAttribute="centerX" id="JMw-Ke-Dph"/>
-                            <constraint firstItem="0a8-6a-pNn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="MGl-7N-8jf"/>
-                            <constraint firstItem="MiS-OT-oak" firstAttribute="top" secondItem="zpI-Nk-1ea" secondAttribute="bottom" constant="65" id="QFg-2b-qVZ"/>
+                            <constraint firstItem="0a8-6a-pNn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="MGl-7N-8jf"/>
+                            <constraint firstItem="MiS-OT-oak" firstAttribute="top" secondItem="zpI-Nk-1ea" secondAttribute="bottom" constant="30" id="QFg-2b-qVZ"/>
                             <constraint firstItem="0a8-6a-pNn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WdO-UZ-HyZ"/>
                             <constraint firstItem="zpI-Nk-1ea" firstAttribute="top" secondItem="0a8-6a-pNn" secondAttribute="bottom" constant="10" id="cSO-A6-5UT"/>
                             <constraint firstItem="zpI-Nk-1ea" firstAttribute="centerX" secondItem="0a8-6a-pNn" secondAttribute="centerX" id="kn3-lf-0GO"/>
