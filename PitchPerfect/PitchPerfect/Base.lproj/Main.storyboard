@@ -79,36 +79,36 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="C9R-oy-Mia" userLabel="Row1StackView">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="134"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-ZG-NHc" userLabel="Slow Stack View">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-ZG-NHc" userLabel="Slow Stack View">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rY0-F2-Mgk" userLabel="SnailButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="SnailIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="6ha-lb-RnQ"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgG-In-3Qx">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mi0-zF-Qjr" userLabel="Fast Stack View">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="mi0-zF-Qjr" userLabel="Fast Stack View">
                                                 <rect key="frame" x="300" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sje-29-IV3" userLabel="RabbitButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="RabbitIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="8rF-zo-tsS"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfA-UM-Tub">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -120,36 +120,36 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xyu-t0-EI4" userLabel="Row2StackView">
                                         <rect key="frame" x="0.0" y="134" width="600" height="134"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-Te-T19">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-Te-T19">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="so1-4C-Qwo" userLabel="ChipmonkButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="ChipmunkIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="eds-eL-d6P"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chipmunk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwa-bn-O9B">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7SY-07-Jj7">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7SY-07-Jj7">
                                                 <rect key="frame" x="300" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLZ-pJ-beL" userLabel="DarthVaderButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="DarthVaderIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="iiD-zA-ono"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darth Vader" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOl-HU-022">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -161,36 +161,36 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IaM-mr-tyI" userLabel="Row3StackView">
                                         <rect key="frame" x="0.0" y="268" width="600" height="134"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rJF-ce-KJ4">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="rJF-ce-KJ4">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLd-kC-uU8" userLabel="ReverbButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="ReverbIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="zhq-DB-Txy"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reverb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-0i-rd2">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="21"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-Te-5Vd">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-Te-5Vd">
                                                 <rect key="frame" x="300" y="0.0" width="300" height="134"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4J-be-nRx" userLabel="EchoButton">
-                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="113.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
                                                         <state key="normal" image="EchoIcon"/>
                                                         <connections>
                                                             <action selector="playSoundButtonPressed:" destination="sBx-hq-ZFi" eventType="touchUpInside" id="Uyo-bg-PAn"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Echo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR1-2s-kNE">
-                                                        <rect key="frame" x="0.0" y="113" width="300" height="21"/>
+                                                        <rect key="frame" x="0.0" y="114" width="300" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
